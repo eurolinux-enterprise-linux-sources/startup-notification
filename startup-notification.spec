@@ -1,7 +1,7 @@
 Summary: Library for tracking application startup
 Name: startup-notification
 Version: 0.12
-Release: 6.1%{?dist}
+Release: 8%{?dist}
 URL: http://www.freedesktop.org/software/startup-notification/
 #VCS: git:git://git.freedesktop.org/git/startup-notification
 Source0: http://www.freedesktop.org/software/startup-notification/releases/%{name}-%{version}.tar.gz
@@ -62,6 +62,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.12-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.12-7
+- Mass rebuild 2013-12-27
+
 * Mon Mar 25 2013 Daniel Mach <dmach@redhat.com> - 0.12-6.1
 - Rebuild for xcb-util
 
